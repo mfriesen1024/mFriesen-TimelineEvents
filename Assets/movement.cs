@@ -10,6 +10,7 @@ public class movement : MonoBehaviour
     void OnMove(InputValue input)
     {
         var1 = input.Get<Vector2>();
+        if (transform.position.magnitude > 10) { Application.Quit(); }
     }
 
     // Update is called once per frame
