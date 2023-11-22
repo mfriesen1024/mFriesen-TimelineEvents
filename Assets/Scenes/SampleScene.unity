@@ -516,6 +516,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c79d77eaa3b78794a838198b1f5c1d73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  quitRange: 5
 --- !u!65 &739182160
 BoxCollider:
   m_ObjectHideFlags: 0
